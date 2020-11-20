@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GIS</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>myico.ico</normaloff>myico.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menutest">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionline"/>
+    <addaction name="actionclear"/>
+   </widget>
+   <widget class="QMenu" name="menuhandle">
+    <property name="title">
+     <string>Handle</string>
+    </property>
+    <addaction name="actionzoom_in"/>
+    <addaction name="actionzoom_out"/>
+    <addaction name="actionup"/>
+    <addaction name="actionmove_down"/>
+    <addaction name="actionmove_left"/>
+    <addaction name="actionmove_right"/>
+   </widget>
+   <widget class="QMenu" name="menuCreate">
+    <property name="title">
+     <string>Create</string>
+    </property>
+    <addaction name="actionpoint"/>
+    <addaction name="actionline_2"/>
+    <addaction name="actionpolygon"/>
+   </widget>
+   <widget class="QMenu" name="menuAnalysis">
+    <property name="title">
+     <string>Analysis</string>
+    </property>
+    <addaction name="actionbuffer"/>
+   </widget>
+   <widget class="QMenu" name="menuTIN">
+    <property name="title">
+     <string>TIN</string>
+    </property>
+    <addaction name="actionrandom"/>
+   </widget>
+   <addaction name="menutest"/>
+   <addaction name="menuhandle"/>
+   <addaction name="menuCreate"/>
+   <addaction name="menuAnalysis"/>
+   <addaction name="menuTIN"/>
+  </widget>
+  <action name="actionline">
+   <property name="text">
+    <string>open</string>
+   </property>
+  </action>
+  <action name="actionclear">
+   <property name="text">
+    <string>clear</string>
+   </property>
+  </action>
+  <action name="actionzoom_in">
+   <property name="text">
+    <string>zoom in</string>
+   </property>
+  </action>
+  <action name="actionzoom_out">
+   <property name="text">
+    <string>zoom out</string>
+   </property>
+  </action>
+  <action name="actionup">
+   <property name="text">
+    <string>move up</string>
+   </property>
+  </action>
+  <action name="actionmove_down">
+   <property name="text">
+    <string>move down</string>
+   </property>
+  </action>
+  <action name="actionmove_left">
+   <property name="text">
+    <string>move left</string>
+   </property>
+  </action>
+  <action name="actionmove_right">
+   <property name="text">
+    <string>move right</string>
+   </property>
+  </action>
+  <action name="actioncreate">
+   <property name="text">
+    <string>create</string>
+   </property>
+  </action>
+  <action name="actionpoint">
+   <property name="text">
+    <string>point</string>
+   </property>
+  </action>
+  <action name="actionline_2">
+   <property name="text">
+    <string>line</string>
+   </property>
+  </action>
+  <action name="actionpolygon">
+   <property name="text">
+    <string>polygon</string>
+   </property>
+  </action>
+  <action name="actioncreate_shp">
+   <property name="text">
+    <string>create shp</string>
+   </property>
+  </action>
+  <action name="actionbuffer">
+   <property name="text">
+    <string>buffer</string>
+   </property>
+  </action>
+  <action name="actionadd">
+   <property name="text">
+    <string>add</string>
+   </property>
+  </action>
+  <action name="actionrandom">
+   <property name="text">
+    <string>random</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
